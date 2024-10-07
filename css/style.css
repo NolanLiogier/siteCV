@@ -3,50 +3,19 @@
     padding: 0;
     font-family: 'Helvetica', sans-serif;
 }
-header div {
-    margin-top: 1.2rem;
+.header_div {
+    position: fixed;
+    top: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    transition: background-color 0.5s ease;
 }
-
-/* Side navigation */
-
-.sideNav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+.header_div.appear_background {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
   }
-  
-  .sideNav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sideNav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sideNav .sideNavClose {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
 
 /* Homepage Style */ 
 
@@ -106,7 +75,6 @@ header div {
 }
 .career_information {
     color: white;
-    font-weight: bold;
     margin-top: 43rem;
     display: flex;
     align-items: center;
@@ -114,10 +82,10 @@ header div {
     width: 100%;
 }
 .school {
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 .company {
-    margin-right: 1rem;
+    margin-right: 3rem;
 }
 
 /* Selfie style */
@@ -135,4 +103,7 @@ header div {
     height: 10rem;                
     background-color: white;      
     border-radius: 50%;           
+}
+#grand{
+    height: 250vh;
 }
