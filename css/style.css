@@ -76,17 +76,17 @@
 }
 .career_information {
     color: white;
-    margin-top: 43rem;
+    margin-top: 45rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 .school {
-    margin-left: 3rem;
+    margin-left: 1.5rem;
 }
 .company {
-    margin-right: 3rem;
+    margin-right: 1.5rem;
 }
 
 /* Selfie style */
