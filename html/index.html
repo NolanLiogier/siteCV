@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/sideNav.js"></script>
     <script src="../js/backgroundHeader.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -18,6 +19,9 @@
         </div>
     </header>
     <main>
+        <a href="#" id="scrollToTop" class="scroll-to-top">&#10094;</a>
+
+
         <section>
             <div>
                 <img class="background_image" src="../documents/fond.jpg">  
@@ -34,10 +38,73 @@
             <div class="circle"></div>
             <img class="selfie" src="../documents/selfie.png">
         </div>
-        <p id="grand"></p>
+
+        <section class="coursel_section">
+        <div class="carousel">
+            <input type="radio" class="input_carousel" name="fancy" autofocus value="0" id="slide1" />
+            <input type="radio" class="input_carousel" name="fancy" value="1" id="slide2" />
+            <input type="radio" class="input_carousel" name="fancy" value="2" id="slide3" />
+            <input type="radio" class="input_carousel" name="fancy" value="3" id="slide4" />
+        
+            <div class="carousel-inner">
+              <div class="carousel-item" id="item1">
+                <h2>A propos de moi</h2>
+                <hr>
+                <div class="carousel_a_propos">
+                  <p>orem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Nulla eu rutrum purus, non
+                    elementum nunc. Suspendisse commodo
+                    vitae ante eget fringilla. Quisque quis urna
+                    leo. Nam sed quam tristique, eleifend justo
+                    quis, ullamcorper massa.
+                    
+                    
+                    
+                    Quisque non ex sed eros hendrerit
+                    dignissim. Quisque velit urna, posuere ut
+                    scelerisque bibendum, consectetur sed
+                    sapien. Aliquam a posuere ex. Integer quis
+                    rhoncus odio. Ut ullamcorper ultricies nisi, a
+                    maximus quam suscipit et. Proin pharetra
+                    augue eu elit posuere, in ornare sem luctus.</p>
+                    <p>orem ipsum dolor sit amet, consectetur
+                      adipiscing elit. Nulla eu rutrum purus, non
+                      elementum nunc. Suspendisse commodo
+                      vitae ante eget fringilla. Quisque quis urna
+                      leo. Nam sed quam tristique, eleifend justo
+                      quis, ullamcorper massa.
+                      
+                      
+                      
+                      Quisque non ex sed eros hendrerit
+                      dignissim. Quisque velit urna, posuere ut
+                      scelerisque bibendum, consectetur sed
+                      sapien. Aliquam a posuere ex. Integer quis
+                      rhoncus odio. Ut ullamcorper ultricies nisi, a
+                      maximus quam suscipit et. Proin pharetra
+                      augue eu elit posuere, in ornare sem luctus.</p>
+                  </div>
+              </div>
+              <div class="carousel-item" id="item2">
+                <span>&#9829; Hearts</span>
+              </div>
+              <div class="carousel-item" id="item3">
+                <span>&#9824; Spades</span>
+              </div>
+              <div class="carousel-item" id="item4">
+                <span>&#9830; Diamonds</span>
+              </div>
+            </div>
+        
+            <div class="carousel-control prev" id="prev">&#10094;</div>
+            <div class="carousel-control next" id="next">&#10095;</div>
+          </div>
+        </section>
+    
     </main>
     <footer>
 
     </footer>
+    <script src="carousel.js"></script>
 </body>
 </html>
