@@ -239,7 +239,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 3rem;
-    color: black;
+    color: rgb(38, 38, 38);
     cursor: pointer;
     padding: 1rem;
     user-select: none;
