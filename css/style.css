@@ -156,7 +156,7 @@
 }
 .career_information {
     color: white;
-    margin-top: 47.5rem;
+    margin-top: 46.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -187,8 +187,6 @@
     background-color: white;      
     border-radius: 50%;           
 }
-
-
 
 /*carousel*/
 
