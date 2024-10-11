@@ -1,39 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/test.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/backgroundHeader.js"></script>
+    <title>Document</title>
 </head>
 <body>
-  <section class="coursel_section">
-    <div class="carousel">
-        <input type="radio" class="input_carousel" name="fancy" autofocus value="0" id="slide1" />
-        <input type="radio" class="input_carousel" name="fancy" value="1" id="slide2" />
-        <input type="radio" class="input_carousel" name="fancy" value="2" id="slide3" />
-        <input type="radio" class="input_carousel" name="fancy" value="3" id="slide4" />
-    
-        <div class="carousel-inner">
-          <div class="carousel-item" id="item1">
-            <h2 class="carousel_title">A PROPOS DE MOI</h2>
-            <hr class="carousel_hr">
-            <h2 class="carousel_download">TELECHARGER</h2>
+    <header>
+        <div class="header_div">
+          <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <nav>
+              <a href="#">A propos</a>
+              <a href="#">Nos services</a>
+              <a href="#">Témoignages</a>
+              <a href="#">Contact</a>
+            </nav>
           </div>
-          <div class="carousel-item" id="item2">
-            <span>&#9829; Hearts</span>
-          </div>
-          <div class="carousel-item" id="item3">
-            <span>&#9824; Spades</span>
-          </div>
-          <div class="carousel-item" id="item4">
-            <span>&#9830; Diamonds</span>
-          </div>
+          
+          <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
+            <a class="download" href="../documents/cv.pdf" download>
+                <img src="../documents/download_logo.png">
+              </a>
         </div>
+    </header>
+    <main>
+        <a href="#" id="scrollToTop" class="scroll-to-top">&#10094;</a>
+
+
+        <section class="homepage_section">
+            <div>
+                <img class="background_image" src="../documents/fond.jpg">  
+                <h1 class="name_title">TIMEO GAYTE</h1> 
+                <h2 class="status_title">APPRENTI TECHNICIEN RESEAU</h2>      
+            </div>
+
+            <div class="career_information">
+                <p class="school">CFAI - <br>Saint-Etienne</p> 
+                <p class="company">Entreprise - <br>Saint-Etienne</p>      
+            </div>
+        </section>
+        <div>
+            <div class="circle"></div>
+            <img class="selfie" src="../documents/selfie.png">
+        </div>
+
+        <section class="coursel_section">
+        <div class="carousel">
+            <input type="radio" class="input_carousel" name="fancy" autofocus value="0" id="slide1" />
+            <input type="radio" class="input_carousel" name="fancy" value="1" id="slide2" />
+            <input type="radio" class="input_carousel" name="fancy" value="2" id="slide3" />
+            <input type="radio" class="input_carousel" name="fancy" value="3" id="slide4" />
+        
+            <div class="carousel-inner">
+              <div class="carousel-item" id="item1">
+                <h2 class="carousel_title">A PROPOS DE MOI</h2>
+                <hr class="carousel_hr">
+                <a class="download_carousel" href="../documents/cv.pdf" download>TELECHARGER</a>
+                <p class="carousel_about_me_text">
+                  Quisque non ex sed eros hendrerit dignissim. 
+                  Quisque velit urna, posuere ut scelerisque bibendum, 
+                  consectetur sed sapien. Aliquam a posuere ex. 
+                  Integer quis rhoncus odio. Ut ullamcorper ultricies nisi,
+                  a maximus quam suscipit et. Proin pharetra augue eu elit posuere, 
+                  in ornare sem luctus.
+                  <br>
+                  <br>
+                  <br>
+                  Quisque non ex sed eros hendrerit dignissim. 
+                  Quisque velit urna, posuere ut scelerisque bibendum, 
+                  consectetur sed sapien. Aliquam a posuere ex. 
+                  Integer quis rhoncus odio. Ut ullamcorper ultricies nisi,
+                  a maximus quam suscipit et. Proin pharetra augue eu elit posuere, 
+                  in ornare sem luctus.
+                </p>
+              </div>
+              <div class="carousel-item" id="item2">
+                <h2 class="carousel_title">A PROPOS DE MOI</h2>
+                <hr class="carousel_hr">
+                <p class="carousel_about_me_text">
+                  Quisque non ex sed eros hendrerit dignissim. 
+                  Quisque velit urna, posuere ut scelerisque bibendum, 
+                  consectetur sed sapien. Aliquam a posuere ex. 
+                  Integer quis rhoncus odio. Ut ullamcorper ultricies nisi,
+                  a maximus quam suscipit et. Proin pharetra augue eu elit posuere, 
+                  in ornare sem luctus.
+                  <br>
+                  <br>
+                  <br>
+                  Quisque non ex sed eros hendrerit dignissim. 
+                  Quisque velit urna, posuere ut scelerisque bibendum, 
+                  consectetur sed sapien. Aliquam a posuere ex. 
+                  Integer quis rhoncus odio. Ut ullamcorper ultricies nisi,
+                  a maximus quam suscipit et. Proin pharetra augue eu elit posuere, 
+                  in ornare sem luctus.
+                </p>
+              </div>
+              <div class="carousel-item" id="item3">
+                <span>&#9824; Spades</span>
+              </div>
+              <div class="carousel-item" id="item4">
+                <span>&#9830; Diamonds</span>
+              </div>
+            </div>
+        
+            <div class="carousel-control prev" id="prev">&#10094;</div>
+            <div class="carousel-control next" id="next">&#10095;</div>
+          </div>
+        </section>
     
-        <div class="carousel-control prev" id="prev">&#10094;</div>
-        <div class="carousel-control next" id="next">&#10095;</div>
-      </div>
-    </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../js/burger.js"></script>
+    <script src="carousel.js"></script>
 </body>
 </html>

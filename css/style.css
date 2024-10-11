@@ -5,7 +5,7 @@
     font-family: 'Helvetica', sans-serif;
     scroll-behavior: smooth;
 }
-.header_div {
+.header_section {
     position: absolute;
     top: 1.2rem;
     display: flex;
@@ -14,7 +14,7 @@
     width: 100%;
     transition: background-color 0.5s ease;
 }
-.header_div.appear_background {
+.header_section.appear_background {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
   }
@@ -48,7 +48,7 @@
   color: #111;
 }
 
-.sidenav ul {
+.sidenav nav {
   list-style-type: none;
   z-index: 50;
   padding: 0;
@@ -115,15 +115,13 @@
 } 
 
 /* Homepage Style */ 
-.homepage_section {
-  height: 5rem;
-}
+
 .background_image {
     top: 0;
     position: absolute;
     z-index: -1;
     width: 100%;   
-    height: 100vh;          
+    height: 95vh;          
     object-fit: cover;  
 }
 .name_title, .status_title {
@@ -150,6 +148,7 @@
     font-size: 1rem;
     color: white;
     margin-top: 48rem;
+    margin-bottom: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -205,14 +204,6 @@
     color: #111;
   }
   
-  .carousel-item:nth-child(2) {
-    background-color: #cc0000;
-  }
-  
-  .carousel-item:nth-child(4) {
-    background-color: #cc0000;
-  }
-  
   .input_carousel[type="radio"] {
     display: none;
   }
@@ -262,6 +253,7 @@
   .carousel_title {
     font-size: 0.9rem;
     margin-left: 1.2rem;
+    margin-top: 0.3rem;
   }
   .carousel_hr {
     margin-top: 1rem;
@@ -278,3 +270,17 @@
     margin-top: 3rem;
     padding: 0 6rem;
   }
+
+.download_carousel {
+  position: absolute;
+  z-index: 851584141;
+  right: 1.2rem;
+  text-decoration: none;
+  color: #0f1c3f;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.2rem 0.5rem; 
+  box-sizing: border-box;
+}
