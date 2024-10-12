@@ -95,7 +95,6 @@
     padding: 2px;
     border-radius: 50%; 
     text-align: center; 
-
     text-decoration: none;
     transform: rotate(90deg);
 }
@@ -130,19 +129,19 @@
     font-weight: bold;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 .name_title {
-    font-size: 3.8rem;
+    font-size: 3rem;
 }
 .status_title {
-    font-size: 1.3rem;
-    top: 57%;
+    font-size: 1.2rem;
+    top: 56%;
     margin-left: 5px;
     font-weight: 100;
-    letter-spacing: 0.2rem;
-    color: #dadada;
+    letter-spacing: 0.4rem;
+    color: #b9b9b9;
 }
 .career_information {
     font-size: 1rem;
@@ -238,7 +237,7 @@
   }
   
   .carousel-control:hover {
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+    transition: background-color 0.3s ease-in-out; 
     background-color: rgba(0, 0, 0, 0.2); 
 }
 
@@ -273,7 +272,8 @@
 
 .download_carousel {
   position: absolute;
-  right: 0.6rem;
+  right: 0.5rem;
+  top: 0.5rem;
   text-decoration: none;
   color: #0f1c3f;
   font-size: 0.9rem;
