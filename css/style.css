@@ -148,7 +148,7 @@
     font-size: 1rem;
     color: white;
     margin-top: 46rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -282,4 +282,17 @@
   border-radius: 8px;
   padding: 0.2rem 0.5rem; 
   box-sizing: border-box;
+}
+
+.coursel_carrer_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.coursel_carrer_date {
+  font-weight: bold;
+  color: lightgray;
 }
